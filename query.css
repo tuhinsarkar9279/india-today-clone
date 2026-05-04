@@ -611,3 +611,38 @@
         font-size: 22px;
     }
 }
+
+@media (max-width: 320px) {
+    .bar {
+        width: 89%;
+    }
+
+    .ist {
+        width: 307px;
+    }
+
+    .dimg img {
+        margin-left: -1px;
+
+        width: 116%;
+
+    }
+
+    .inpl {
+        width: 301px;
+    }
+
+    .rbox {
+        width: 265px;
+    }
+
+    .footer-links a {
+        font-size: 8px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+
+
+}
