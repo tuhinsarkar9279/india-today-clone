@@ -1,0 +1,613 @@
+@media (max-width: 1382px) {}
+
+
+@media (max-width: 1024px) {
+    .rls {
+        grid-template-columns: 1fr;
+    }
+
+    .inpl {
+        width: 96%;
+    }
+
+    .rightside {
+        height: 80vh;
+    }
+
+    .tlast {
+        gap: 35px;
+    }
+
+    .navCon {
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+
+    .rls {
+        grid-template-columns: 1fr;
+    }
+
+    .conteainer2 {
+        grid-template-columns: 1fr;
+    }
+
+    .leftside {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        border: none;
+        background: transparent;
+    }
+
+    .rightside {
+        height: max-content;
+    }
+
+    .footer {
+        padding: 0 20px;
+    }
+
+    .botm {
+        padding: 0 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 820px) {
+    .rls {
+        grid-template-columns: 1fr;
+    }
+
+    .conteainer2 {
+        grid-template-columns: 1fr;
+    }
+
+    .leftside {
+        display: none;
+    }
+
+    .inpl {
+        width: 96%;
+    }
+
+    .navCon {
+        padding: 0 20px;
+        width: calc(100% - 40px);
+    }
+
+    .menu {
+        display: block;
+        border: none;
+    }
+
+    .rightside {
+        height: max-content;
+    }
+
+    .menu {
+        background: transparent;
+    }
+
+    .tlast {
+        gap: 45px;
+    }
+
+    .sco {
+        width: 84vw;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .rls {
+        margin-left: 6px;
+    }
+
+    .preso p {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .ist {
+
+        width: 675px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 431px) {
+    .navCon {
+        padding: 0 10px;
+        width: calc(100% - 6px);
+    }
+
+    .rightside {
+        overflow: hidden;
+    }
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .ist {
+        width: 400px;
+        padding: 8px;
+    }
+
+    .ist h3 {
+        font-size: 23px;
+        text-align: left;
+    }
+
+    .iind {
+        font-size: 16px;
+    }
+
+    .uno ul li {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+    .bold p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .dimg {
+        align-content: center;
+    }
+
+    .preso p {
+        font-size: 20px;
+    }
+
+    .scon {
+        grid-template-columns: 1fr;
+    }
+
+    .inpl {
+        width: 397px;
+        margin-bottom: 14px;
+    }
+
+    .ter {
+        font-size: 16px;
+    }
+
+    .iraq p {
+        font-size: 14px;
+    }
+
+    .pahal {
+        min-width: max-content;
+    }
+
+    .today h1 {
+        font-size: 27px;
+    }
+
+
+    .foll p {
+        font-size: 14px;
+    }
+
+
+    .tlast {
+        gap: 60px;
+    }
+
+    .play img {
+        width: 80px;
+    }
+
+    .atv img {
+        width: 122px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+    }
+
+    .footer-bottom {
+        font-size: 14px;
+    }
+
+    .rbox {
+        width: 355px;
+    }
+
+    .gam {
+        width: 243px;
+    }
+
+
+}
+
+@media (max-width: 415px) {
+    .ist {
+        width: 383px;
+    }
+
+    .inpl {
+        width: 376px;
+    }
+
+    .rbox {
+        margin-left: 0;
+    }
+
+    .today h1 {
+        font-size: 25px;
+    }
+
+}
+
+
+@media (max-width: 412px) {
+    .ist {
+        width: 387px;
+    }
+
+
+    .navCon {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow: hidden;
+
+
+    }
+
+
+    .rlsLeft {
+        margin-left: -1px;
+    }
+
+
+    .ist h3 {
+        font-size: 20px;
+        font-weight: 900;
+        text-align: left;
+    }
+
+
+    .iind {
+        font-size: 14px;
+    }
+
+
+    .uno ul li {
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+
+    .rightside {
+        width: 410px;
+        overflow: hidden;
+    }
+
+
+    .scon {
+        grid-template-columns: 1fr;
+    }
+
+
+    .inpl {
+        width: 382px;
+    }
+
+
+    .bold h3 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+
+    .bold p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+
+    .dimg img {
+        margin-left: 15px;
+    }
+
+
+    .preso p {
+        font-size: 16px;
+        margin-right: 6px;
+    }
+
+
+    .gam {
+        width: 225px;
+    }
+
+
+    .pahal {
+        min-width: max-content;
+    }
+
+
+    .today h1 {
+        font-size: 24px;
+    }
+
+
+    .foll {
+        width: 152px;
+    }
+
+
+    .tlast {
+        gap: 64px;
+    }
+
+
+    .play img {
+        width: 82px;
+
+
+    }
+
+
+    .atv img {
+        width: 150px;
+    }
+
+
+    .play {
+        margin-left: 30px;
+    }
+
+
+    .footer-links a {
+        font-size: 10px;
+    }
+
+
+    .footer-bottom {
+        font-size: 14px;
+    }
+
+
+    .fu {
+        gap: 15px;
+    }
+
+
+    .adivn {
+        min-width: 60%;
+    }
+
+
+    .dimg {
+        align-content: center;
+    }
+
+
+    .dimg video {
+        width: 115%;
+    }
+
+
+    .ter {
+        font-size: 18px;
+    }
+
+
+
+
+    .iraq p {
+        font-size: 14px;
+    }
+
+
+    .icon p {
+        margin-left: 2px;
+    }
+
+
+}
+
+
+@media (max-width: 391px) {
+    .bar {
+        width: 96%;
+    }
+
+    .ist {
+        width: 365px;
+    }
+
+    .inpl {
+        width: 362px;
+    }
+
+    .mnews {
+        grid-template-columns: 2fr 1fr;
+        gap: 2px;
+    }
+
+    .dimg {
+
+        width: 90%;
+    }
+
+    .tra {
+        width: 94%;
+    }
+
+    .rbox {
+        margin-left: -5px;
+    }
+
+    .rbox {
+        width: 346px;
+    }
+}
+
+@media (max-width: 376px) {
+    .navCon {
+
+        padding-left: 8px;
+        padding-right: 8px;
+        overflow: hidden;
+    }
+
+    .bar {
+        width: 92%;
+    }
+
+    .ist {
+        width: 352px;
+    }
+
+    .inpl {
+        width: 347px;
+    }
+
+    .ter {
+        font-size: 14px;
+    }
+
+    .iraq p {
+        font-size: 13px;
+    }
+
+    .ist h3 {
+        font-size: 18px;
+    }
+
+    .iind {
+        font-size: 13px;
+    }
+
+    .tra {
+        width: 92%;
+    }
+
+    .rbox {
+        width: 335px;
+    }
+
+    .footer {
+        padding: 0 6px;
+    }
+
+    .footer footer {
+
+        width: 97%;
+
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 361px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+
+    .rightside {
+        width: 360px;
+        overflow: hidden;
+    }
+
+
+    .ist {
+        width: 340px;
+    }
+
+
+
+
+    .inpl {
+        width: 330px;
+    }
+
+
+    .rbox {
+        width: 302px;
+        margin-left: 6px;
+    }
+
+
+    .rlsLeft {
+        margin-left: -5px;
+    }
+
+
+    .header h1 {
+        font-size: 23px;
+    }
+
+
+    .inpl {
+        width: 332px;
+    }
+
+
+    .rbox {
+        width: 292px;
+    }
+
+
+    .gam {
+        width: 181px;
+    }
+
+
+    .today h1 {
+        font-size: 22px;
+    }
+}
