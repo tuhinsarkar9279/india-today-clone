@@ -12,11 +12,10 @@ function toggleSidebar(){
         main.style.position = "relative";
         sidebar.style.position = "absolute";
         sidebar.style.height = "92%";
-        sidebar.style.position = "fixed";
+        
+        
         document.body.style.overflow = "hidden";
         sidebar.style.overflowX = "scroll";
-
-
 
     }
     else{
