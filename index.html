@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>India Today</title>
     <link rel="icon" type="image/x-icon" href="https://www.indiatoday.in/favicon.ico">
     <link rel="stylesheet" href="style.css" class="css">
@@ -19,57 +19,60 @@
 
 <body>
     <div class="conteainer navCon secPeddingLR">
-        <div class="fn">
-            <nav class="nav">
-                <ul>
-                    <li><a href="index.html"><b>INDIA TODAY</b></a></li>
-                    <li><a href="world.html">AAJ TAK</a></li>
-                    <li><a href="business.html">INDIA TODAY HINDI</a></li>
-                    <li><a href="sports.html">NEWS TAK</a></li>
-                    <li><a href="entertainment.html">GNTTV</a></li>
-                    <li><a href="technology.html">LALLANTOP</a></li>
-                    <li><a href="health.html">BUSINESS TODAY</a></li>
-                    <li><a href="health.html">BANGLA</a></li>
-                    <li><a href="health.html">MALAYALAM</a></li>
-                    <li><a href="health.html">NORTHEAST</a></li>
-                    <li><a href="health.html">BT BAZAAR</a></li>
-                    <div class="drop"><button class="dropdown"><ion-icon name="chevron-down-outline"></ion-icon>
+
+        <div class="zzz" id="zzz">
+            <div class="fn">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html"><b>INDIA TODAY</b></a></li>
+                        <li><a href="world.html">AAJ TAK</a></li>
+                        <li><a href="business.html">INDIA TODAY HINDI</a></li>
+                        <li><a href="sports.html">NEWS TAK</a></li>
+                        <li><a href="entertainment.html">GNTTV</a></li>
+                        <li><a href="technology.html">LALLANTOP</a></li>
+                        <li><a href="health.html">BUSINESS TODAY</a></li>
+                        <li><a href="health.html">BANGLA</a></li>
+                        <li><a href="health.html">MALAYALAM</a></li>
+                        <li><a href="health.html">NORTHEAST</a></li>
+                        <li><a href="health.html">BT BAZAAR</a></li>
+                        <div class="drop"><button class="dropdown"><ion-icon name="chevron-down-outline"></ion-icon>
 
 
 
-                        </button></div>
-                </ul>
-            </nav>
-        </div>
+                            </button></div>
+                    </ul>
+                </nav>
+            </div>
 
-        <hr>
+            <hr>
 
-        <div class="header secPeddingLR mar kk">
+            <div class="header secPeddingLR mar kk">
 
-            <button class="menu"><ion-icon name="list-outline"></ion-icon>
-            
-            </button>
+                <button onclick="toggleSidebar()" class="menu"><ion-icon name="list-outline"></ion-icon>
 
-            <h1>INDIA TODAY</h1>
+                </button>
+
+                <h1>INDIA TODAY</h1>
 
 
-            <div class="side header">
+                <div class="side header">
 
-                <div class="magazine"><img src="mega.png" alt="Magazine">
-                    <p>Magazine</p>
-                </div>
-                <div class="live"><img src="live.png" alt="Live">
-                    <p>Live</p>
-                </div>
-                <div class="search"><img src="search.png" alt="Search">
-                    <p>Search</p>
+                    <div class="magazine"><img src="mega.png" alt="Magazine">
+                        <p>Magazine</p>
+                    </div>
+                    <div class="live"><img src="live.png" alt="Live">
+                        <p>Live</p>
+                    </div>
+                    <div class="search"><img src="search.png" alt="Search">
+                        <p>Search</p>
+                    </div>
                 </div>
             </div>
+            <hr>
         </div>
-        <hr>
 
         <div class="conteainer2">
-            <div class="leftside">
+            <div class="leftside" id="sidebar">
 
                 <div class="lsin">
                     <button class="sinb">
@@ -366,7 +369,7 @@
 
 
             </div>
-            <div class="rightside">
+            <div class="rightside" id="main">
 
                 <div class="bar">
                     <div class="ipl ppl"><ion-icon name="chevron-back-outline"></ion-icon></div>
@@ -1069,6 +1072,7 @@
     </div>
 
     </div>
+    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

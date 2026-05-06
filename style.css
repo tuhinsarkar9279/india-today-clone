@@ -1007,7 +1007,14 @@ grid-column: 1fr 1fr 1fr;
     padding: 0 100px;
     background-color: #f2f3f3;
 }
+.rightside{
+    z-index: 1;
+}
 
+.leftside{
+    z-index: 10;
+    
+}
 
 
 

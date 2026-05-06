@@ -2,6 +2,9 @@
 
 
 @media (max-width: 1024px) {
+    .leftside{
+        width: 50%;
+    }
     .rls {
         grid-template-columns: 1fr;
     }
@@ -72,6 +75,9 @@
 
 
 @media (max-width: 820px) {
+        .leftside{
+        width: 50%;
+    }
     .rls {
         grid-template-columns: 1fr;
     }
@@ -122,6 +128,9 @@
 
 
 @media (max-width: 768px) {
+        .leftside{
+        width: 50%;
+    }
 
     .rls {
         margin-left: 6px;
@@ -150,6 +159,9 @@
 
 
 @media (max-width: 431px) {
+        .leftside{
+        width: 50%;
+    }
     .navCon {
         padding: 0 10px;
         width: calc(100% - 6px);
@@ -258,6 +270,9 @@
 }
 
 @media (max-width: 415px) {
+        .leftside{
+        width: 50%;
+    }
     .ist {
         width: 383px;
     }
@@ -278,6 +293,9 @@
 
 
 @media (max-width: 412px) {
+        .leftside{
+        width: 50%;
+    }
     .ist {
         width: 387px;
     }
@@ -453,6 +471,9 @@
 
 
 @media (max-width: 391px) {
+        .leftside{
+        width: 50%;
+    }
     .bar {
         width: 96%;
     }
@@ -489,6 +510,9 @@
 }
 
 @media (max-width: 376px) {
+        .leftside{
+        width: 50%;
+    }
     .navCon {
 
         padding-left: 8px;
@@ -553,6 +577,9 @@
 
 
 @media (max-width: 361px) {
+        .leftside{
+        width: 50%;
+    }
     .header h1 {
         font-size: 24px;
     }
@@ -613,6 +640,9 @@
 }
 
 @media (max-width: 320px) {
+        .leftside{
+        width: 50%;
+    }
     .bar {
         width: 89%;
     }
@@ -646,3 +676,4 @@
 
 
 }
+
